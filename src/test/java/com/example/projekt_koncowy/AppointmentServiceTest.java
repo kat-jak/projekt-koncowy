@@ -35,7 +35,7 @@ public class AppointmentServiceTest {
         sampleAppointment = new Appointment();
         sampleAppointment.setId(1L);
         sampleAppointment.setId(1L);
-        sampleAppointment.setDateTime(LocalDateTime.parse("2024-06-15"));
+        sampleAppointment.setDateTime(LocalDateTime.parse("2024-06-15T10:00:00"));
     }
 
     @Test
